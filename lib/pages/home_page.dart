@@ -43,77 +43,89 @@ class _HomePageState extends State<HomePage> {
                             color: Colors.black,
                             fontWeight: FontWeight.bold),
                       ),
-                      SizedBox(height: 5,),
+                      SizedBox(
+                        height: 5,
+                      ),
                       Text(
                         "The world's fastest messagining app.\nIt is free and secure",
-                        textAlign:TextAlign.center,style: TextStyle(fontSize: 18,color: Colors.black54),)
+                        textAlign: TextAlign.center,
+                        style: TextStyle(fontSize: 18, color: Colors.black54),
+                      )
                     ],
                   ),
                 ),
                 Container(
-                  child: Column(
-                    children: [
-                      Lottie.asset("assest/_animation/telegram_2_page.json"),
-                      SizedBox(
-                        height: 30,
-                      ),
-                      Text(
-                        "Fast",
-                        style: TextStyle(
-                            fontSize: 25,
-                            color: Colors.black,
-                            fontWeight: FontWeight.bold),
-                      ),
-                      SizedBox(height: 5,),
-                      Text(
-                        "Telegram delivers messages.\nfaster than any other application",
-                        textAlign:TextAlign.center,style: TextStyle(fontSize: 18,color: Colors.black54),)
-                    ],
-                  )
-
-                ),
-                Container(
-
                     child: Column(
-                      children: [
-                        Lottie.asset("assest/_animation/telegram_3_page.json"),
-                        SizedBox(
-                          height: 30,
-                        ),
-                        Text(
-                          "Fast",
-                          style: TextStyle(
-                              fontSize: 25,
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold),
-                        ),
-                        SizedBox(height: 5,),
-                        Text(
-                          "Telegram delivers messages.\nfaster than any other application",
-                          textAlign:TextAlign.center,style: TextStyle(fontSize: 18,color: Colors.black54),)
-                      ],
+                  children: [
+                    Lottie.asset("assest/_animation/telegram_2_page.json"),
+                    SizedBox(
+                      height: 30,
+                    ),
+                    Text(
+                      "Fast",
+                      style: TextStyle(
+                          fontSize: 25,
+                          color: Colors.black,
+                          fontWeight: FontWeight.bold),
+                    ),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Text(
+                      "Telegram delivers messages.\nfaster than any other application",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(fontSize: 18, color: Colors.black54),
                     )
-                ),
+                  ],
+                )),
                 Container(
                     child: Column(
-                      children: [
-                        Lottie.asset("assest/_animation/telegram_4_page.json"),                        SizedBox(
-                          height: 30,
-                        ),
-                        Text(
-                          "Fast",
-                          style: TextStyle(
-                              fontSize: 25,
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold),
-                        ),
-                        SizedBox(height: 5,),
-                        Text(
-                          "Telegram delivers messages.\nfaster than any other application",
-                          textAlign:TextAlign.center,style: TextStyle(fontSize: 18,color: Colors.black54),)
-                      ],
+                  children: [
+                    Lottie.asset("assest/_animation/telegram_3_page.json"),
+                    SizedBox(
+                      height: 30,
+                    ),
+                    Text(
+                      "Fast",
+                      style: TextStyle(
+                          fontSize: 25,
+                          color: Colors.black,
+                          fontWeight: FontWeight.bold),
+                    ),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Text(
+                      "Telegram delivers messages.\nfaster than any other application",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(fontSize: 18, color: Colors.black54),
                     )
-                ),
+                  ],
+                )),
+                Container(
+                    child: Column(
+                  children: [
+                    Lottie.asset("assest/_animation/telegram_4_page.json"),
+                    SizedBox(
+                      height: 30,
+                    ),
+                    Text(
+                      "Fast",
+                      style: TextStyle(
+                          fontSize: 25,
+                          color: Colors.black,
+                          fontWeight: FontWeight.bold),
+                    ),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Text(
+                      "Telegram delivers messages.\nfaster than any other application",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(fontSize: 18, color: Colors.black54),
+                    )
+                  ],
+                )),
               ],
             ),
           ],
